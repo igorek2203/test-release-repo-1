@@ -13,9 +13,20 @@
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.source>11</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <test-release-repo-3.version>1.0.0-SNAPSHOT</test-release-repo-3.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>ru.ilp.test</groupId>
+            <artifactId>test-release-repo-3</artifactId>
+            <version>${test-release-repo-3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.ilp.test</groupId>
+            <artifactId>test-release-repo-3</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
